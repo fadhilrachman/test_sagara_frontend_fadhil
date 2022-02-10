@@ -3,6 +3,7 @@ import axios from 'axios';
 import React, {Component} from 'react';
 import Footer from '../components/Footer';
 import Logo from '../image/logo.svg';
+import {Link} from "react-router-dom";
 
 class  Listnews extends Component  {
     state = {
