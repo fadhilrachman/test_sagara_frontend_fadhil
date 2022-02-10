@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to right,#a445b2,#fa4299);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    .login{
+        margin: 0px auto;
+        margin-top: 7%;
+        width: 30%;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 1px 1px 5px grey;
+        background-color: white;
+        margin-bottom: 148px;
+        padding-bottom: 20px;
+        h1{
+            text-align: center;
+        }
+
+        .judul{
+            padding: 20px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        .input-group{
+            input{
+                border-radius: 20px;
+                margin:0px 50px;
+                height: 50px;
+            }
+        }
+        .btn-log{
+            width: 70%;
+            border-radius: 20px;
+            padding: 10px 30px;
+            background-image: linear-gradient(to top,#a445b2,#fa4299);
+            text-align: center;
+            border-style: none;
+        }
+        button{
+            color: black;
+        }
+        .err{
+            color: red;
+        }
+        .link{
+            margin-top: 30px;
+            
+            a:hover{
+                color: red;
+            }
+        }
+        .btn-log:hover{
+            box-shadow: 1px 1px 3px black,
+                      -1px -1px 10px black;
+            color: white;
+        }
+    }
+}

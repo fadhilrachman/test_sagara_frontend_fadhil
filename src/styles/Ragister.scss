@@ -1,0 +1,61 @@
+
+.Ragister{
+    
+    .input{
+        margin: 0px auto;
+        width: 40%;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 100px;
+        
+        .judul{
+            padding: 30px;
+        }
+        
+        .required{
+            // position: relative;
+            // right: 40px;
+            // bottom: 10px;
+            // font-size: 15px;
+            color: red;
+        }
+        .input-group{
+            width: 60%;
+            margin: 0px auto;
+            height: 50px;   
+            input{
+                border-radius: 20px;
+            }
+            select{
+                border: 1px solid #d9d9d9;
+                border-radius: 20px;
+                width: 100%;
+                option{
+                    margin-right: 10%;
+                }
+            }
+        }
+        h2{
+            text-align: center;
+        }
+        button{
+            background-image: linear-gradient(to top,#a445b2,#fa4299);
+            border-style: none;
+            width: 50%;
+            margin: auto;
+            height: 50px;
+            border-radius: 20px;
+            margin-bottom: 10%;
+            
+        }
+        button:hover{
+            box-shadow: 1px 1px 3px black,
+                      -1px -1px 10px black;
+
+            color: white;          
+        }
+        
+    }
+  
+}
